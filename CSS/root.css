@@ -43,10 +43,12 @@
        /* top: 50%; */
      }
 
-     .dochead h3{
-        border-bottom-style: solid;
-        /* border-bottom-width: 10%; */
-        border-bottom-color: #C03240;
-        /* width: 70%; */
-    }
+
+}
+
+.dochead h3{
+    text-decoration: underline;
+    color: #C03240;
+    line-height: 4px;
+    
 }

@@ -1,0 +1,36 @@
+@import url(root.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fifthpage {
+  height: 100vh auto;
+  width: 100%;
+  background-image: var(--bs-gradient);
+}
+
+.owl-carousel {
+  position: relative;
+}
+.owl-prev, .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px !important; /* Adjust font size */
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px; /* Adjust padding */
+  border-radius: 50%;
+  z-index: 1; /* Ensure buttons are above the carousel cards */
+}
+
+.owl-prev {
+  left: -40px; /* Adjust to position on the left side */
+}
+
+.owl-next {
+  right: -40px; /* Adjust to position on the right side */
+}

@@ -1,0 +1,52 @@
+:root{
+    --bs-white: #FFFFFF;
+    --bs-black:#000000;
+    
+    --bs-blue:#36286B;
+    --bs-blue-2:#554a81e1;
+    --bs-pink-2:#E28389;
+    --bs-color-gray-1: #A0A0A0;
+    --bs-color-gray-2: #606060  ;
+    --bs-color-gray-3:#333333;
+    --bs-color-gray-4:#707070;
+    --bs-color-gray-5:#181717;
+    --bs-gray-300: #d5d8db;
+    --bs-gray-400: #eaecee;
+    --bs-code-color: #AC3B67;
+    --bs-pink: #9D1D59; 
+    --bs-pink-3: #EE1A6C;
+    --bs-gradient: linear-gradient(#AC3B67,#9D1D59);
+    --bs-gradient-1: linear-gradient(#D17F7F,#C03240);
+    /* --bs-gradient-2: linear-gradient(#D17F7F,#C03240); */
+
+}
+
+.docard {
+    box-shadow: 0px 10px 15px 11px rgba(0,0,0,0.1);
+}
+
+
+.docpage {
+    height: 100vh auto;
+}
+
+.docontent {
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 1023px) {
+    
+    .dochead {
+       /* padding-top: 350px; */
+       margin-top: 200px;
+       /* top: 50%; */
+     }
+
+     .dochead h3{
+        border-bottom-style: solid;
+        /* border-bottom-width: 10%; */
+        border-bottom-color: #C03240;
+        /* width: 70%; */
+    }
+}

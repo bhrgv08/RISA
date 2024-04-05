@@ -1,0 +1,25 @@
+@import url(root.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fourthpage {
+    height: auto;
+    width: 100%;
+    background-color: var(--bs-white);
+  }
+
+  .heading{
+    text-align: center;
+    /* padding-top: 65px; */
+    font-weight: 700;
+    color: var(--bs-code-color);
+    font-size: 38px;
+  }
+  
+  .s-text {
+    color: var(--bs-pink);
+  }

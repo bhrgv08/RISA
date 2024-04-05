@@ -1,0 +1,146 @@
+@import url(root.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.thirdpage {
+
+   min-height: 100vh auto;
+  width: 100%;
+ 
+  /* margin-top: -4%; */
+}
+
+
+.thirdpage {
+  position: relative;
+}
+
+.thirdpage::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/imgs/TRAINING.png); /* Background image */
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(3px); /* Blur the background image */
+  z-index: -1;
+}
+
+/* .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8); 
+} */
+
+/* Adjust the existing CSS for the content */
+
+/* .leftcontent3,
+.rightcontent3 {
+  position: relative; 
+} */
+
+/* .leftcontent3,
+.rightcontent3 {
+  z-index: 1;
+} */
+
+
+/* .leftcontent3 {
+  height: 100%;
+  width: 40%;
+  
+  
+} */
+.leftcontent3data span {
+  /* padding-bottom: 5px; */
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
+  border-bottom-color: var(--bs-black);
+
+}
+.leftcontent3data p {
+  font-size: 30px;
+color: var(--bs-white);
+
+}
+
+
+.leftcontent3data {
+  color: var(--bs-color-gray-1);
+  width: 220px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10%;
+}
+
+/* .rightcontent3 {
+  
+  margin-left: 50px;
+  margin-top: -30px;
+} */
+
+/* .profile {
+  
+  margin-top: 70px;
+} */
+
+/* .profiledetails {
+  background-color: var(--bs-white);
+  display: flex;
+  width: 272px;
+  height: 161px;
+} */
+
+/* .logoimg3 {
+  height: 161px;
+  width: 124px;
+  object-fit: cover;
+} */
+
+/* .rightcontent3data h6 {
+  margin-left: 8px;
+  font-size: 14px;
+  color: var(--bs-color-gray-2);
+  margin-top: 18px;
+} */
+
+/* .rightcontent3data span {
+    padding-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    border-bottom-color: #C03240;
+} */
+
+.card-body{
+  /* height: 60px; */
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+.card-body span{
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
+  border-bottom-color: #C03240;
+}
+/* .rightcontent3data p {
+  width: 85%;
+  height: 66px;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-top: 15px;
+  font-size: 11px;
+  color: var(--bs-white);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--bs-color-gray-2);
+} */

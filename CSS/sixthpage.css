@@ -1,0 +1,65 @@
+@import url(root.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sixthpage {
+    height:780px; /* Change height to auto for responsiveness */
+    width: 100%;
+    background-image: url('https://english-blog.s3.amazonaws.com/uploads/2021/11/Ayurveda.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6% 0; /* Adjust padding for responsiveness */
+    display: flex;
+    align-items: center;
+    justify-content: end; /* Center content horizontally */
+}
+
+.Philosophydata {
+    max-width: 837px; /* Limit maximum width */
+    width: 90%; /* Adjust width for responsiveness */
+    background-color: var(--bs-white);
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Add border radius for styling */
+}
+
+.Philosophyname {
+    font-size: 28px;
+    color: var(--bs-color-gray-2);
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.Philosophydetails {
+    font-size: 16px;
+    color: var(--bs-color-gray-2);
+}
+
+/* Media Queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+    
+    .sixthpage {
+        padding: 10% 0; /* Adjust padding for smaller screens */
+    }
+    
+    .Philosophydata {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+    
+    .Philosophyname {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .Philosophyname {
+        font-size: 20px; /* Further adjust font size for smaller screens */
+    }
+    
+    .Philosophydetails {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}

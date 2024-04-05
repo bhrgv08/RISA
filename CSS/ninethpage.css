@@ -1,0 +1,79 @@
+@import url(root.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ninethpage{
+    height: 568px;
+    width:100%;
+    background-image: var( --bs-gradient-1);
+    border: 1px solid #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ninethpagecontent{
+  width: 70%;
+  height: 70%;
+  /* background-color: red; */
+
+}
+
+.ninethpagecontent p{
+    margin-bottom: 5%;
+    font-size: 16px;
+    color: var(--bs-gray-400);
+}
+
+.ninethpagecontent h4{
+    margin-bottom: 5%;
+    color: var(--bs-white);
+    font-size: 22px;
+}
+
+.ninethpagecontent button{
+    /* margin-bottom: 5%; */
+    height: 84px;
+    width: 338px;
+    background-color: var(--bs-pink-2);
+    border: 1px solid #707070;
+    border-radius: 45%;
+}
+
+
+
+
+ .bn62 {
+    color: var(--bs-white );
+    background-color: var(--bs-pink-3);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+    width: 300px;
+    font-size: large;
+    font-weight: 600;
+    border: 1px solid #707070;
+    text-decoration: none;
+   
+  
+  }
+  
+  .bn62 .requestcall{
+    margin-top: 15px;
+    margin-left: 40px;
+  }
+  .bn62 span{
+    height: 50px;
+    width: 52px;
+    border-radius: 50%;
+    background-color: var(--bs-code-color);
+    margin-left: 70px;
+    
+  }

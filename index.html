@@ -10,143 +10,128 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+
+    <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-    <link rel="stylesheet" href="CSS/firstpage.css" />
-    <link rel="stylesheet" href="CSS/secondpagee.css">
-    <link rel="stylesheet" href="CSS/thirdpage.css" />
-    <link rel="stylesheet" href="CSS/fourth.css">
-    <link rel="stylesheet" href="CSS/fifthpage.css" />
-    <!-- <link rel="stylesheet" href="sixthpage.css" /> -->
-    <link rel="stylesheet" href="CSS/seventhpage.css" />
-    <link rel="stylesheet" href="CSS/eight.css">
-    <!-- <link rel="stylesheet" href="ninethpage.css"> -->
-    <link rel="stylesheet" href="CSS/tenthpage.css">
-    <link rel="stylesheet" href="CSS/elevenpage.css">
 </head>
 
 <body>
-    <!-- first page -->
 
 
-    <section class="firstpage">
+    <!---------------- Intro-------------------- -->
 
+    <section class="intro">
         <div class="video-container">
-            <!-- <iframe width="100%" height="100vh" src="https://www.youtube.com/embed/3r924xmBWlQ?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&autohide=1" frameborder="0" allowfullscreen></iframe> -->
-            <video src="https://www.youtube.com/embed/3r924xmBWlQ?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&autohide=1" controls></video>
-
+            <video autoplay loop="true" width="1280" height="720">
+                <!-- <source type="video/mp4" src="https://v3.cdnpk.net/videvo_files/video/free/video0468/large_preview/_import_616544715ef4e9.88359002.mp4"> -->
+                <source type="video/mp4" src="https://cdn.pixabay.com/video/2023/06/30/169443-841382814_large.mp4">
+                <!-- <source type="video/webm" src="http://blucube.net/stuff/codepen-assets/html5vid/beepl-pink-vynil.webm">
+              <source type="video/ogg" src="http://blucube.net/stuff/codepen-assets/html5vid/beepl-pink-vynil.ogv"> -->
+            </video>
             <div class="overlay-content">
-                <div class="logo">
-                    <a class="text-white mt-2 me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbarLabel"><i class="fa-solid fa-bars p-2 fa-2x"></i></a>
-                    <!-- <img src="https://ramaiahayurveda.com/wp-content/uploads/2019/07/logo1.png" style="width: auto; object-fit: cover; color: #ffffff;" alt=""> -->
-                    <img src="https://upload.wikimedia.org/wikipedia/en/5/5a/Ramaiah_Institutions_Logo.png" alt="logo" style="width: auto; object-fit: cover;" />
-                    <div class="logoname">
-                        <h1>RAMAIAH</h1>
-                        <p class="first">Indic Specialty Ayurveda</p>
-                        <div class="line"></div>
-                        <p class="second">RESTORATION HOSPITAL</p>
-                    </div>
-
-                    <div class="position-fixed end-0 top-0">
-                        <button type="button" class="cbtn btn-primary text-white"><i class="fa-solid fa-phone me-2"></i> Click to call</button>
-                    </div>
-                    <!-- --- offcanvas------>
-                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                                <div class="logoname">
-                                    <h1>RAMAIAH</h1>
-                                    <p class="first">Indic Specialty Ayurveda</p>
-                                    <div class="line"></div>
-                                    <p class="second">RESTORATION HOSPITAL</p>
-                                </div>
-                            </h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <header>
+                    <nav>
+                        <div class="logo">
+                            <a class="text-white mt-2 me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbarLabel"><i class="fa-solid fa-bars p-2 fa-2x"></i></a>
+                            <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/5/5a/Ramaiah_Institutions_Logo.png" alt="Ramaiah logo" style="width: auto; object-fit: cover;"></a>
+                            <div class="logoname">
+                                <h1>RAMAIAH</h1>
+                                <p class="first">Indic Specialty Ayurveda</p>
+                                <div class="line"></div>
+                                <p class="second">RESTORATION HOSPITAL</p>
+                            </div>
                         </div>
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i class="fa-regular fa-address-card me-2"></i> About RISA
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Founder Story</a></li>
-                                        <li><a class="dropdown-item" href="#">Management</a></li>
-                                        <li><a class="dropdown-item" href="#">Our Story</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i class="fa-solid fa-feather me-2"></i> Ayurveda & Yoga
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Ayurveda</a></li>
-                                        <li><a class="dropdown-item" href="#">Yoga</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i class="fa-solid fa-user-doctor me-2"></i> Specialities
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">General Medicine</a></li>
-                                        <li><a class="dropdown-item" href="#">Gynaecology</a></li>
-                                        <li><a class="dropdown-item" href="#">Eye & ENT</a></li>
-                                        <li><a class="dropdown-item" href="#">Para Surgery</a></li>
-                                        <li><a class="dropdown-item" href="#">Paediatrics</a></li>
-                                        <li><a class="dropdown-item" href="#">Panchakarma</a></li>
-                                        <li><a class="dropdown-item" href="#">Integrative Care / Holistic Approach </a></li>
-                                        <li><a class="dropdown-item" href="#">Yoga</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i class="fa-solid fa-hospital-user me-2"></i> International Care
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">International Care 1</a></li>
-                                        <li><a class="dropdown-item" href="#">International Care 2</a></li>
-                                        <li><a class="dropdown-item" href="#">International Care 3</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i class="fa-solid fa-house-medical me-2"></i> Facilities
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Facility 1</a></li>
-                                        <li><a class="dropdown-item" href="#">Facility 2</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                        <div class="position-fixed end-0 top-0">
+                            <a type="button" class="cbtn btn-purple" href="tel:YOUR-PHONE-NUMBER"><i class="fa-solid fa-phone me-2"></i>Click to call</a>
                         </div>
-                    </div>
-                </div>
+                        <!-- Offcanvas Navbar -->
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                                    <div class="logoname">
+                                        <h1>RAMAIAH</h1>
+                                        <p class="first">Indic Specialty Ayurveda</p>
+                                        <div class="line"></div>
+                                        <p class="second">RESTORATION HOSPITAL</p>
+                                    </div>
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 
-               
-                <!-- --------->
-
-
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa-regular fa-address-card me-2"></i> About RISA
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Founder Story</a></li>
+                                            <li><a class="dropdown-item" href="#">Management</a></li>
+                                            <li><a class="dropdown-item" href="#">Our Story</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa-solid fa-feather me-2"></i> Ayurveda & Yoga
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Ayurveda</a></li>
+                                            <li><a class="dropdown-item" href="#">Yoga</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa-solid fa-user-doctor me-2"></i> Specialities
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">General Medicine</a></li>
+                                            <li><a class="dropdown-item" href="#">Gynaecology</a></li>
+                                            <li><a class="dropdown-item" href="#">Eye & ENT</a></li>
+                                            <li><a class="dropdown-item" href="#">Para Surgery</a></li>
+                                            <li><a class="dropdown-item" href="#">Paediatrics</a></li>
+                                            <li><a class="dropdown-item" href="#">Panchakarma</a></li>
+                                            <li><a class="dropdown-item" href="#">Integrative Care / Holistic Approach </a></li>
+                                            <li><a class="dropdown-item" href="#">Yoga</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa-solid fa-hospital-user me-2"></i> International Care
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">International Care 1</a></li>
+                                            <li><a class="dropdown-item" href="#">International Care 2</a></li>
+                                            <li><a class="dropdown-item" href="#">International Care 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa-solid fa-house-medical me-2"></i> Facilities
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Facility 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Facility 2</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
 
                 <div class="container pt-5">
-                    <div class="row">
-                        <div class="col-12 pt-5">
-                            <h1 class="pt-3 fs-2">Ramaiah Indic Specialty Ayurveda</h1>
-                            <p class="fs-3 text-start pt-3  fw-lighter">
-                                Best Ayurveda Hospital is located at the heart of the <br> Bangalore
-                                city in Ramaiah Campus
-                            </p>
-                        </div>
+                    <div class="row pt-5">
+                        <h1 class="pt-3 fs-2">Ramaiah Indic Specialty Ayurveda</h1>
+                        <p class="fs-3 text-start pt-3  fw-lighter">Best Ayurveda Hospital is located at the heart of the<br> Bangalore city in Ramaiah Campus</p>
                     </div>
                 </div>
-
                 <div class="container">
                     <div class="row buttons mt-4">
-                        <div class="col-12">
-                            <button class="mb-4">ONLINE CONSULTATION</button>
-                            <button>AREA OF EXPERTISE</button>
+                        <div class="col-12 ">
+                            <a href="#" type="button" class="mt-2 btn-purple">ONLINE CONSULTATION</a>
+                            <a href="#" type="button" class="mt-2 ex btn-purple">AREA OF EXPERTISE</a>
                         </div>
                     </div>
                 </div>
@@ -154,264 +139,154 @@
         </div>
     </section>
 
-    <!-- second page -->
-    <!-- <section class="docpage">
-        <div class="container-fluid" style="padding-right: 30px;">
-            <div class="row pt-5 pb-5">
-                <div class="dochead col-lg-3">
-                    <h3 class="fs-1 fw-bold text-center uline">OUR DOCTORS</h3>
+    <section class="about">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-lg-5">
+                    <!-- <img src="https://ramaiahayurveda.com/wp-content/uploads/2019/07/logo1.png" alt="" class="img-fluid"> -->
+                    <img src="https://cdn.pixabay.com/photo/2024/01/07/01/05/ai-generated-8492244_1280.jpg" alt="" class="img-fluid">
+                    <p class="fs-5 pt-3 fw-bold text-blue">Best of Ayurveda - The Authentic way</p>
                 </div>
 
-                <div class="col-lg-9">
-                    <div class="row pt-5">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="docard mb-5 border-black">
-                              <div class="row">
-                                <div class="col-md-4">
-                                  <img src="./imgs/Mask Group 2.png" class="d-block mx-auto" alt="...">
-                                </div>
-                                <div class="col-md-8 docontent">
-                                  <div class="card-body">
-                                    <h6 class="card-title"><span>Dr.</span> Krishna J</h6>
-                                    <p class="card-text pt-2">MD (Ayurveda) Specialist in Panchakarma, Medical
-                                      Superintendent</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="docard mb-5 border-black">
-                              <div class="row">
-                                <div class="col-md-4">
-                                  <img src="./imgs/Mask Group 3.png" class="d-block mx-auto" alt="...">
-                                </div>
-                                <div class="col-md-8 docontent">
-                                  <div class="card-body" >
-                                    <h6 class="card-title"><span>Dr.</span>Shalini TV</h6>
-                                    <p class="card-text pt-2">MD (Ayurveda) Neuro & Musculoskeletal Disorders Obesity,
-                                      Diabetes & wellness Skin & Git Diseases</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="docard mb-5 border-black">
-                              <div class="row">
-                                <div class="col-md-4">
-                                  <img src="./imgs/Mask Group 4.png" class="d-block mx-auto" alt="...">
-                                </div>
-                                <div class="col-md-8 docontent">
-                                  <div class="card-body">
-                                    <h6 class="card-title"><span>Dr.</span>Vinayaka</h6>
-                                    <p class="card-text pt-2">Ayurvedacharya, (RMO) Neuro & Musculoskeletal Disorders
-                                      Obesity, Diabetes & wellness Skin & Git Diseases</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="docard mb-5 border-black">
-                              <div class="row">
-                                <div class="col-md-4">
-                                  <img src="imgs/Mask Group 5.png" class="d-block mx-auto" alt="...">
-                                </div>
-                                <div class="col-md-8 docontent">
-                                  <div class="card-body">
-                                    <h6 class="card-title"><span>Dr.</span>Vidya AMR</h6>
-                                    <p class="card-text pt-2">MD (Ayurveda) Skin & Git Diseases, General OPD</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-lg-4 col-md-6 col-sm-12 ">
-                            <div class="docard mb-5  border-black">
-                              <div class="row">
-                                <div class="col-md-4">
-                                  <img src="imgs/Mask Group -1.png" class="d-block mx-auto" alt="...">
-                                </div>
-                                <div class="col-md-8 docontent">
-                                  <div class="card-body">
-                                    <h6 class="card-title"><span>Dr.</span>Sujatha S Patil</h6>
-                                    <p class="card-text pt-2">Visiting Consultant, RISA Ayurveda Gynaecology PCOD,
-                                      Infertility, Menstrual Disorders</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="docard mb-5  border-black">
-                              <div class="row">
-                                <div class="col-md-4">
-                                  <img src="imgs/Mask Group -2.png" class="d-block mx-auto" alt="...">
-                                </div>
-                                <div class="col-md-8 docontent">
-                                  <div class="card-body">
-                                    <h6 class="card-title"><span>Dr.</span>Sujatha S Patil</h6>
-                                    <p class="card-text pt-2">MS (Ayurveda), Specialist in Ayurveda Eye & ENT</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
+                <div class="col-lg-7">
+                    <p class="abtext">Ramaiah Indic Specialty Ayurveda
+                        Best of Ayurveda - the authentic way
+                        Ramaiah Indic Specialty Ayurveda (RISA) specializes in restoration of health at a deeper level - physical ability, balance, long-term dreams, lost harmony and everyday joys. Employing the advancements in medicine and technology and infusing natural and traditional medicine, RISA focuses on not just managing existing conditions, but offers a cure to long-term diseases with holistic healthcare and change of lifestyle. RISA continues to further its growth and research in advanced Ayurveda.</p>
+                <a href="" type="button" class="btn-purple btn-lg">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-                
-            </div>
-
-            
-        </div>
-    </section> -->
-
-
-
-
-    <!-- =============================== -->
-
-    <!-- second page -->
-    <section class="secondpage pt-4">
-        <h3 class="text-white text-center pb-5 fw-bold fs-2">OUR SPECIALIZED CLINICAL FACILITIES</h3>
-
-        <div class="container grid text-center pt-4">
-            <div class="owl-carousel facilities row">
-                <div class="col-lg-6 col-md-8 col-sm-12">
-                    <img height="65%" src="imgs/outpatientt.png" alt="Image 1">
-                    <p class="text-white fw-semibold">OUTPATIENT <br> FACILITY</p>
-                </div>
-                <div class="col-lg-6 col-md-8 col-sm-12">
-                    <img height="65%" src="imgs/medicinee.png" alt="Image 2">
-                    <p class="text-white fw-semibold">IN-HOUSE <br> MEDICINE</p>
-                </div>
-                <div class="col-lg-6 col-md-8 col-sm-12">
-                    <img height="65%" src="imgs/patientt.png" alt="Image 3">
-                    <p class="text-white fw-semibold">IN-PATIENT <br>FACILITY</p>
-                </div>
-                <div class="col-lg-6 col-md-8 col-sm-12">
-                    <img height="65%" src="imgs/yogaa.png" alt="Image 4">
-                    <p class="text-white fw-semibold">TAILOR-MADE <br>YOGA SESSIONS</p>
-                </div>
-                <div class="col-lg-6 col-md-8 col-sm-12">
-                    <img height="65%" src="imgs/panchakarm.png" alt="Image 5">
-                    <p class="text-white fw-semibold">PANCHAKARMA <br>THERAPY ROOMS</p>
-                </div>
-                <div class="col-lg-6 col-md-8 col-sm-12">
-                    <img height="65%" src="imgs/pharmacyy.png" alt="Image 6">
-                    <p class="text-white fw-semibold">IN HOUSE <br> PHARMACY</p>
-                </div>
-            </div>
-
-            <div class="my-4 pb-5">
-                <p class="text-white fs-5">Add on Facilities: Emergency Care, ICU, Physiotherapy, Radiology and
-                    laboratory facilities, Tertiary Level Care and Counseling.</p>
             </div>
         </div>
     </section>
 
 
-    <!-- fourth page -->
+    <!-- services page -->
 
-    <section class="fourthpage">
-        <div class="">
-            <h3 class="heading pb-5">OUR SPECIALIZED CLINICAL SERVICES</h3>
-        </div>
-        <div class="container text-center pb-5">
-            <div class="row pt-5">
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <img height="60%" src="./imgs/General_Medicine_image1.png" alt="General Medicine">
+    <section class="services">
+        <div class="container text-center">
+            <h3 class="text-white text-center pb-5 fw-bold fs-2 pt-5">OUR SPECIALIZED CLINICAL SERVICES</h3>
+            <div class="owl-carousel services-slider">
+                <div class="item">
+                    <img class="img-fluid" src="assets/imgs/genral Medicines.png" alt="General Medicine">
                     <p class="fw-bold s-text">GENERAL MEDICINE</p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <img height="60%" src="./imgs/Eye_image2.png" alt="Eye">
-                    <p class="fw-bold s-text">EYE</p>
+                <div class="item">
+                    <img class="img-fluid" src="assets/imgs/ENT_eye.png" alt="Ent">
+                    <p class="fw-bold s-text">EYE / ENT</p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <img height="60%" src="./imgs/Ent_image3.png" alt="Ent">
-                    <p class="fw-bold s-text">ENT</p>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 ">
-                    <img height="60%" src="./imgs/Pediatrics_image4.png" alt="Paedriatics">
+                <div class="item">
+                    <img class="img-fluid" src="assets/imgs/Pediatrics.png" alt="Paedriatics">
                     <p class="fw-bold s-text">PEDIATRICS</p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 ">
-                    <img height="60%" src="./imgs/Gyenacology_image5.png" alt="Gyenacology">
+                <div class="item">
+                    <img class="img-fluid" src="assets/imgs/Gyenacology.png" alt="Gyenacology">
                     <p class="fw-bold s-text">GYENACOLOGY</p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 ">
-                    <img height="60%" src="./imgs/Panchakarmaa.png" alt="Panchakarma">
+                <div class="item">
+                    <img class="img-fluid" src="assets/imgs/Panchkarma.png" alt="Panchakarma">
                     <p class="fw-bold s-text">PANCHAKARMA</p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 ">
-                    <img height="60%" src="./imgs/Pallative_care_image7.png" alt="Pallative care for chronic ailments-">
-                    <p class="fw-bold s-text">PALLATIVE CARE FOR <BR>CHRONIC AILMENTS</BR></p>
+                <div class="item">
+                    <img class="img-fluid" src="assets/imgs/Pallative care.png" alt="Pallative care for chronic ailments">
+                    <p class="fw-bold s-text">PALLIATIVE CARE FOR CHRONIC AILMENTS</p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 ">
-                    <img height="60%" src="./imgs/Parasurgery_image8.png" alt="Parasurgery">
+                <div class="item">
+                    <img class="img-fluid" src="assets/imgs/parasurgery.png" alt="Parasurgery">
                     <p class="fw-bold s-text">PARASURGERY</p>
                 </div>
             </div>
+        </div>
+
+    </section>
+
+    <section class="facilities pt-4">
+        <div class="container text-white text-center pt-4">
+            <h3 class="pb-5 fw-bold fs-2">OUR SPECIALIZED CLINICAL FACILITIES</h3>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img height="65%" src="assets/imgs/outpatientt.png" alt="Image 1">
+                    <p class="text-white fw-semibold">OUTPATIENT <br> FACILITY</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img height="65%" src="assets/imgs/medicinee.png" alt="Image 2">
+                    <p class="text-white fw-semibold">IN-HOUSE <br> MEDICINE</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img height="65%" src="assets/imgs/patientt.png" alt="Image 3">
+                    <p class="text-white fw-semibold">IN-PATIENT <br>FACILITY</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img height="65%" src="assets/imgs/yogaa.png" alt="Image 4">
+                    <p class="text-white fw-semibold">TAILOR-MADE <br>YOGA SESSIONS</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img height="65%" src="assets/imgs/panchakarm.png" alt="Image 5">
+                    <p class="text-white fw-semibold">PANCHAKARMA <br>THERAPY ROOMS</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img height="65%" src="assets/imgs/pharmacyy.png" alt="Image 6">
+                    <p class="text-white fw-semibold">IN HOUSE <br> PHARMACY</p>
+                </div>
+                <p class="fs-5 pb-5">Add on Facilities: Emergency Care, ICU, Physiotherapy, Radiology and
+                    laboratory facilities, Tertiary Level Care and Counseling.</p>
+            </div>
 
 
         </div>
     </section>
-
 
     <!-- ============================================================================= -->
 
-    <!-- fifth page -->
+    <!-------------------- Testimonials ------------------>
 
-    <section class="fifthpage">
-
-
+    <section class="testimonials">
         <div class="container text-center text-white">
             <h4 class="fw-bold fs-2 pt-5">TESTIMONIALS</h4>
-            <div class="owl-carousel testimonials pt-5 pb-5">
+            <div class="owl-carousel testimonials-slider pt-5 pb-5" aria-label="Testimonials Carousel">
                 <div class="card p-5">
-                    <p class="fs-4 fw-bold"><i class="fa-solid fa-quote-left float-start"></i>Raghuram</p>
-                    <p class="fs-5">
-                        Thank you Dr. Gangadharan, Dr. Girija, and the entire team
-                        for the most effective and affectionate treatment. Treating
-                        my mother who is 95years old with respiratory pneumonia and
-                        she is recovering much better. We are totally indebted to
-                        the Ramaiah Ayurveda team for excellent treatment, tests
-                        carried out. Thank you god bless you all. <i class="pt-4 fa-solid fa-quote-right float-end"></i>
-                    </p>
+                    <blockquote class="fs-5">
+                        <p class="fs-4 fw-bold"><i class="fa-solid fa-quote-left float-start"></i>Raghuram</p>
+                        <p>
+                            Thank you Dr. Gangadharan, Dr. Girija, and the entire team
+                            for the most effective and affectionate treatment. Treating
+                            my mother who is 95 years old with respiratory pneumonia and
+                            she is recovering much better. We are totally indebted to
+                            the Ramaiah Ayurveda team for excellent treatment, tests
+                            carried out. Thank you god bless you all. <i class="pt-4 fa-solid fa-quote-right float-end"></i>
+                        </p>
+                    </blockquote>
                 </div>
                 <div class="card p-5">
-                    <p class="fs-4 fw-bold"> <i class="fa-solid fa-quote-left float-start"></i>Murali Mohan</p>
-                    <p class="fs-5">
-                        Thank you Dr. Gangadharan, Dr. Girija, and the entire team
-                        for the most effective and affectionate treatment. Treating
-                        my mother who is 95years old with respiratory pneumonia and
-                        she is recovering much better. We are totally indebted to
-                        the Ramaiah Ayurveda team for excellent treatment, tests
-                        carried out. Thank you god bless you all. <i class="pt-4 fa-solid fa-quote-right float-end"></i>
-                    </p>
+                    <blockquote class="fs-5">
+                        <p class="fs-4 fw-bold"><i class="fa-solid fa-quote-left float-start"></i>Murali Mohan</p>
+                        <p>
+                            Thank you Dr. Gangadharan, Dr. Girija, and the entire team
+                            for the most effective and affectionate treatment. Treating
+                            my mother who is 95 years old with respiratory pneumonia and
+                            she is recovering much better. We are totally indebted to
+                            the Ramaiah Ayurveda team for excellent treatment, tests
+                            carried out. Thank you god bless you all. <i class="pt-4 fa-solid fa-quote-right float-end"></i>
+                        </p>
+                    </blockquote>
                 </div>
                 <div class="card p-5">
-                    <p class="fs-4 fw-bold"><i class="fa-solid fa-quote-left float-start"></i> PRABHA</p>
-                    <p class="fs-5">
-                        Thank you Dr. Gangadharan, Dr. Girija, and the entire team
-                        for the most effective and affectionate treatment. Treating
-                        my mother who is 95years old with respiratory pneumonia and
-                        she is recovering much better. We are totally indebted to
-                        the Ramaiah Ayurveda team for excellent treatment, tests
-                        carried out. Thank you god bless you all. <i class="pt-4 fa-solid fa-quote-right float-end"></i>
-                    </p>
+                    <blockquote class="fs-5">
+                        <p class="fs-4 fw-bold"><i class="fa-solid fa-quote-left float-start"></i> PRABHA</p>
+                        <p>
+                            Thank you Dr. Gangadharan, Dr. Girija, and the entire team
+                            for the most effective and affectionate treatment. Treating
+                            my mother who is 95 years old with respiratory pneumonia and
+                            she is recovering much better. We are totally indebted to
+                            the Ramaiah Ayurveda team for excellent treatment, tests
+                            carried out. Thank you god bless you all. <i class="pt-4 fa-solid fa-quote-right float-end"></i>
+                        </p>
+                    </blockquote>
                 </div>
-
-
             </div>
         </div>
-
-
-
     </section>
 
-    <section class="seventhpage">
+    <!---------Contact--------------->
+    <section class="contact">
         <div class="container-fluid p-5">
             <p class="fs-3 fw-bold pb-5 uline">CONTACT US</p>
             <div class="row">
@@ -422,16 +297,16 @@
                         <p><i class="fa-solid fa-location-arrow me-2"></i><a href="">VIEW ON GOOGLE MAPS </a></br> Directions From Your Location</p>
                         <div class="pb-3">
                             <p class="fw-semibold">Front Office: </p>
-                            <p><i class="fa-solid fa-square-phone"></i> Telephone: <a href="tel:+080-22183456">080-22183456</a>  | <a href="tel:+080-40503455">080-40503455</a></p>
+                            <p><i class="fa-solid fa-square-phone"></i> Telephone: <a href="tel:+080-22183456">080-22183456</a> | <a href="tel:+080-40503455">080-40503455</a></p>
                             <p><i class="fa-brands fa-square-whatsapp"></i> Whatsapp : <a href="https://wa.me/6364131357">6364131357</a></p>
                             <p><i class="fa-regular fa-envelope"></i> Email: <a href="mailto:info@ramaiahayurveda.com">info@ramaiahayurveda.com</a></p>
                         </div>
                     </div>
                     <hr width="60%">
 
-                    
+
                     <div class="addressbox">
-                        <h6 class="fw-bold pb-3">Ramaiah Ayurveda Sunshine Treatment <br> Center | Malaysia</h6> 
+                        <h6 class="fw-bold pb-3">Ramaiah Ayurveda Sunshine Treatment <br> Center | Malaysia</h6>
                         <p>
                             103, Farlim Square, Jalan Pisang Embun <br />
                             Kampung Melayu 11500 Air Itam Pulau <br />
@@ -467,24 +342,24 @@
 
                 <div class="col-lg-4">
                     <form class="card p-4">
-                
+
                         <div class="form-group pb-5">
-                        <input type="text" class="form-control" id="name" placeholder="Full Name">
+                            <input type="text" class="form-control" id="name" placeholder="Full Name">
                         </div>
-                
+
                         <div class="form-group pb-5">
-                        <input type="email" class="form-control" id="email" placeholder="Email">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
                         </div>
-                
+
                         <div class="form-group pb-5">
-                        <input type="tel" class="form-control" id="phone" placeholder="Phone">
+                            <input type="tel" class="form-control" id="phone" placeholder="Phone">
                         </div>
-                
+
                         <div class="form-group pb-5">
-                        <textarea class="form-control" id="message" rows="6" placeholder="Your message..."></textarea>
+                            <textarea class="form-control" id="message" rows="6" placeholder="Your message..."></textarea>
                         </div>
-                
-                        <button type="submit" class="btn btn-block btn-lg btn-primary"><i class="fa-regular fa-paper-plane me-2"></i>Send</button>
+
+                        <button type="submit" class="btn btn-block btn-lg btn-purple"><i class="fa-regular fa-paper-plane me-2"></i>Send</button>
                     </form>
                 </div>
             </div>
@@ -492,187 +367,99 @@
         </div>
     </section>
 
+    <!-- Footer -->
 
-    <!-- eightpage -->
-    <!-- <section class="eightpage pt-4 pb-4">
-        <div class="container text-white text-center">
-            <p class="text-center fw-semibold fs-2 pb-3">Clinical Excellence</p>
-            <div class="row pt-5">
-                <div class="col-md-4">
-                    <i class="fa-regular fa-square-plus fa-5x pb-4"></i>
-                    <h4>17 Years <br> of Experiance</h4>
+
+    <footer class="footer">
+        <div class="container p-4 text-white">
+            <div class="row mb-4">
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0 " style="font-size: 35px;">
+                    <!-- <a href="#" class="text-white px-2"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="text-white"><i class="fa-brands fa-linkedin"></i></a> -->
+                    <img src="" alt="">
                 </div>
-                <div class="col-md-4">
-                    <i class="fa-solid fa-stethoscope fa-5x pb-4"></i>
-                    <h4>500+ <br> Doctors</h4>
+
+                <div class="d-flex  col-lg-4 col-md-6 col-sm-12  location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="">M S Ramaiah Nagar, MSRIT Post, Mathikere, Bengaluru-560 054</p>
                 </div>
-                <div class="col-md-4">
-                    <i class="fa-solid fa-hospital-user fa-5x pb-4"></i>
-                    <h4>2-5 million <br> Patient We Saved</h4>
+
+                <div class="d-flex  col-lg-4 col-md-6 col-sm-12  phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>
+                        080-22183456 | 080-40503455 <br> info@ramaiahayurveda.com
+                    </p>
                 </div>
             </div>
-        </div>
-        <div class="clinical">
-
-        </div>
-        <div class="years">
-
-
-
-        </div>
-
-    </section> -->
-
-
-    <!-- tenthpage -->
-
-    <section class="tenthpage">
-        <div class="map">
-            <div class="pt-3">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15555.80884571165!2d77.59631594999999!3d12.91079305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1712128342123!5m2!1sen!2sin" class="map" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- elevenpage -->
-
-
-    <footer class="elevenpage">
-        <div class="container">
-
-            <footer class=" text-lg-start text-white">
-                <div class="container p-4">
-                    <div class="row mt-4">
-
-                        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 " style="font-size: 35px;">
-                            <a href="#" class="text-white px-2"> <i class="fa-brands fa-facebook"></i></a>
-                            <a href="#" class="text-white"><i class="fa-brands fa-linkedin"></i></a>
-                            <!-- <i class="fa-brands fa-twitter"></i> -->
-
-                        </div>
-
-                        <div class="d-flex  col-lg-4 col-md-6 col-sm-12  location">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <p class="">M S Ramaiah Nagar, MSRIT Post, Mathikere, Bengaluru-560 054</p>
-                        </div>
-
-                        <div class="d-flex  col-lg-4 col-md-6 col-sm-12  phone">
-                            <i class="fa-solid fa-phone"></i>
-                            <p>
-                                080-22183456 | 080-40503455 <br> info@ramaiahayurveda.com
-                            </p>
-                        </div>
-                        <div class="d-flex  col-lg-4 col-md-6 col-sm-12">
-                            <div class="my-5">
-                                <h3>Vision</h3>
-                                <p>To establish a world-class center of excellence in Ayurveda based on integrative holistic healthcare.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mt-4">
-                            <h5 class="text-uppercase">Useful Links</h5>
-
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="#!" class="text-white">Welcome</a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="text-white">Panchakarma</a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="text-white">OPD & IPD</a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="text-white">Pharmacy</a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="text-white">Medicine Preparation</a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="text-white">Yoga</a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mt-4 ">
-                            <h5 class="text-uppercase">Quick Links</h5>
-
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="#!" class="text-white">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="text-white">Contact Us</a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="text-white">Privacy Policy</a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="text-white">Terms & Conditions</a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="text-white">Cancellation & Returns</a>
-                                </li>
-                            </ul>
-                        </div>
+            <div class="row pt-4">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                    <div class="pt-3 map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15555.80884571165!2d77.59631594999999!3d12.91079305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1712128342123!5m2!1sen!2sin" class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-3 col-sm-12 mt-4">
+                    <h5 class="text-uppercase">Useful Links</h5>
 
-                <div class="text-center p-3">
-                    Copyright © RISA | All Rights Reserved
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-white">Welcome</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Panchakarma</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">OPD & IPD</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Pharmacy</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Medicine Preparation</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Yoga</a>
+                        </li>
+                    </ul>
                 </div>
-            </footer>
+                <div class="col-lg-4 col-md-3 col-sm-12 mt-4">
+                    <h5 class="text-uppercase">Quick Links</h5>
 
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-white">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Cancellation & Returns</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center pt-3">
+                Copyright © RISA | All Rights Reserved
+            </div>
         </div>
     </footer>
 
+    <div class="sticky-social">
+        <ul class="social">
+            <li class="fb"><a href=""><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+            <li class="linkedin"><a href="#"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+            <li class="yt"><a href="#"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        $('.testimonials').owlCarousel({
-            loop: true,
-            margin: 10,
-            responsiveClass: true,
-            nav:true,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: true
-                },
-                600: {
-                    items: 1,
-                    nav: false
-                },
-                1000: {
-                    items: 1,
-                    nav: true,
-                    loop: false
-                }
-            }
-        })
-        $('.facilities').owlCarousel({
-            loop: true,
-            margin: 10,
-            responsiveClass: true,
-            nav:true,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: true
-                },
-                600: {
-                    items: 4,
-                    nav: false
-                },
-                1000: {
-                    items: 4,
-                    nav: true,
-                    loop: false
-                }
-            }
-        })
-    </script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 
 </html>
